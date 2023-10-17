@@ -17,6 +17,7 @@
 		2DBBD2442AD60B9B005B3BFB /* Hachwich_SixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBBD2432AD60B9B005B3BFB /* Hachwich_SixUITests.swift */; };
 		2DBBD2462AD60B9B005B3BFB /* Hachwich_SixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBBD2452AD60B9B005B3BFB /* Hachwich_SixUITestsLaunchTests.swift */; };
 		2DBBD2532AD60CEA005B3BFB /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBBD2522AD60CEA005B3BFB /* secondViewController.swift */; };
+		2DBBD2D12ADF4DB2005B3BFB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBBD2D02ADF4DB2005B3BFB /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2DBBD2432AD60B9B005B3BFB /* Hachwich_SixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hachwich_SixUITests.swift; sourceTree = "<group>"; };
 		2DBBD2452AD60B9B005B3BFB /* Hachwich_SixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hachwich_SixUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2DBBD2522AD60CEA005B3BFB /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		2DBBD2D02ADF4DB2005B3BFB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2DBBD2242AD60B9A005B3BFB /* SceneDelegate.swift */,
 				2DBBD2262AD60B9A005B3BFB /* ViewController.swift */,
 				2DBBD2282AD60B9A005B3BFB /* Main.storyboard */,
+				2DBBD2D02ADF4DB2005B3BFB /* Launch Screen.storyboard */,
 				2DBBD22B2AD60B9B005B3BFB /* Assets.xcassets */,
 				2DBBD2522AD60CEA005B3BFB /* secondViewController.swift */,
 				2DBBD22D2AD60B9B005B3BFB /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 			files = (
 				2DBBD22F2AD60B9B005B3BFB /* LaunchScreen.storyboard in Resources */,
 				2DBBD22C2AD60B9B005B3BFB /* Assets.xcassets in Resources */,
+				2DBBD2D12ADF4DB2005B3BFB /* Launch Screen.storyboard in Resources */,
 				2DBBD22A2AD60B9A005B3BFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
