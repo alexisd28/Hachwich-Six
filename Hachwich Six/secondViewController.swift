@@ -7,7 +7,22 @@
 
 import UIKit
 
-class secondViewController: UIViewController {
+class secondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var myPlacesToGoArray = ["Germany", "Japan", "Alaska"]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return myPlacesToGoArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let text = myPlacesToGoArray[indexPath.row]
+        cell.textLabel?.text = text
+        return cell
+
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
