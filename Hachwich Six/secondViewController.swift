@@ -8,6 +8,7 @@
 import UIKit
 
 class secondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    @IBOutlet weak var tableView: UITableView!
     
     var myPlacesToGoArray = ["Germany", "Japan", "Alaska"]
     

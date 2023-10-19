@@ -40,6 +40,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="8uk-Mk-yz8"/>
+                    <connections>
+                        <outlet property="tableView" destination="uHw-r4-Zt6" id="g1d-Zh-2nF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xhR-Xn-wf0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
